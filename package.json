@@ -1,0 +1,21 @@
+{
+  "name": "node-active-win-crash",
+  "version": "1.0.0",
+  "description": "Demonstrates bug when active-win v7.x.x crashes with Node v14.x.x on Windows 10",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onikienko/node-active-win-crash.git"
+  },
+  "engines": {
+    "node": ">=14.15.3"
+  },
+  "dependencies": {
+    "active-win": "^7.1.0"
+  }
+}
